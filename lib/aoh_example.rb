@@ -42,3 +42,4 @@ def aoh_update(aoh, row, key, new_value)
   aoh[row][key] = new_value
   new_value
 end
+aoh_update(array_2, 0, name:, "Steve")
