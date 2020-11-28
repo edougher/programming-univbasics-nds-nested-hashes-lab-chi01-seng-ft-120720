@@ -1,6 +1,6 @@
 # Examples inspired by David Foster Wallace's # (2/21/1962 to 9/12/2008) _Infinite Jest_
 
-DON_G = { name: => "Don Gately", occupation: =>"Live-in Staff" }
+DON_G = { name: => "Don Gately", occupation: => "Live-in Staff" }
 JOELLE_VD = { name: => "Joelle van Dyne", occupation: => "Radio Personality" }
 PAT_M =  { name: => "Pat Monteseian", occupation: => "Staff" }
 KATE_G = { name: => "Kate Gompert", occupation: => "None" }
@@ -33,6 +33,7 @@ array_2 = [
   { name:  "Pat Monteseian", occupation: "Staff" },
   { name:  "Bruce Green", occupation: "Fan of Mildred" }
 ]
+aoh_lookup(array_2, 2, name:)
 
 def aoh_update(aoh, row, key, new_value)
   # Update the AoH data at row and key to have the value of new_value
